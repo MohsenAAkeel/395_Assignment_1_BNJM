@@ -1,6 +1,13 @@
-h1{
+body{
     text-align: center;
+    color: #000000;
     font-family: "Montserrat", sans-serif;
+    /*background-color: #8B0000;*/
+}
+
+h1{
+    color: #FFFFFF;
+    padding: 5% 0;
 }
 
 .column {
@@ -13,13 +20,56 @@ h1{
     content: "";
     clear: both;
     display: table;
+
+
 }
 
-.row > .column > .images{
+.row{
+
+    background-color: #8B0000;
+
+
+}
+
+.row  .column  .images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 240px;
+
+}
+
+.images{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     height: 240px;
 }
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+.end{
+    height: 200px;
+}
+
+.top{
+
+    background-color: #8B0000;
+
+
+}
+
+
+
+
 
