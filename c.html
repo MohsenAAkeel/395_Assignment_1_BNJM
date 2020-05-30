@@ -1,35 +1,89 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title> C Language </title>
+  <meta charset="UTF-8">
+  <title>C Programming Language</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="styles.css">
 </head>
   
-<h1> The C Programming Language and Projects that Use it </h1>
+<body>
+  <section class= "colored" id="title">
 
-<div>
-  <p> For the beginner programmer, the C language may be a difficult choice sompared to some othe roptions. For many this is for two resons. Namely, the level of micromanagement and lower level style of the language. For example, memory management is handled entirely by the programmer, and C lacks the "syntactic sugar" that higher levels of abstraction can bring.  However, it is these same reasons that make C a great language if you're project requires this.
-</p>
-<p>
-  Maybe you're working on an embedded system that has very low levels of memory. managing that memory may require strict control of its use. C is a language that offers the programmer strict control of the memory his software uses at any point in time.
-</p>
-<p>
-  The ability to micromanage a system is also a benefit for increasing the speed of a program. "Ultra-high frequency" trading software usually makes use of C or C++. C is also a great language to help one learn the inner workings of a modern computer system! There may be a number of reasons to use C, and if you find you have to, some good starter resources include:
-</p>
-</div>
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="">Softpedia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="java.html">Java</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html-info.html">HTML</a>
+                </li>
+            </ul>
+        </div>
+      </nav>  
+      <h2> The C Programming Language and Projects that Use it </h2>
+    </div>
+  </section>
 
-<div>
-<p>
-  IDE: This is down to opinion. Popular options include CodeBlocks, VisualStudio, or less heavy software like the text editors sublime, notepad++,  emacs, vim, or others
-</p>
-<p>
-  Sites: There are many sites that will help you learn, including
-  <ol>
-  <li><a href="https://www.tutorialspoint.com/cprogramming/index.htm">Tutorials Point </a> has a good tutorial available</li>
- <li> <a href="https://www.cprogramming.com">Cprogramming.com</a> is another option and you can find many more</li>
- <li> You can also find MOOCs that can help guide you through its use, even for field specific use.</li>
-</div>
-
-
+  <section class="non-colored">
+    <div class= "container-fluid">
+      <p> 
+        For the beginner programmer, the C language may be a difficult choice sompared to some othe roptions. For many this is for two resons. Namely, the level of micromanagement and lower level style of the language. For example, memory management is handled entirely by the programmer, and C lacks the "syntactic sugar" that higher levels of abstraction can bring.  However, it is these same reasons that make C a great language if you're project requires this.
+      </p>
+      <p>
+        Maybe you're working on an embedded system that has very low levels of memory. managing that memory may require strict control of its use. C is a language that offers the programmer strict control of the memory his software uses at any point in time.
+      </p>
+      <p>
+        The ability to micromanage a system is also a benefit for increasing the speed of a program. "Ultra-high frequency" trading software usually makes use of C or C++. C is also a great language to help one learn the inner workings of a modern computer system! There may be a number of reasons to use C, and if you find you have to, some good starter resources include:
+      </p>
+    </div>
+  </section>
+  
+  <section class="colored">
+    <div class="container-fluid">
+      <h2>IDE</h2>
+      <p>
+        This is down to opinion. Popular options include CodeBlocks, VisualStudio, or less heavy software like the text editors sublime, notepad++,  emacs, vim, or others
+      </p>
+      <p>
+        Sites: There are many sites that will help you learn, including
+      <ol>
+      <li>
+        <a href="https://www.tutorialspoint.com/cprogramming/index.htm">Tutorials Point </a> has a good tutorial available
+      </li>
+      <li> 
+        <a href="https://www.cprogramming.com">Cprogramming.com</a> is another option and you can find many more
+      </li>
+      <li> 
+        You can also find MOOCs that can help guide you through its use, even for field specific use.
+      </li>
+    </div>
+  </section>
+  
+</body>
 </html>
   
