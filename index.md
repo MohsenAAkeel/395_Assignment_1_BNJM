@@ -105,7 +105,7 @@
                         Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.
                         <a href="https://en.wikipedia.org/wiki/HTML">Wikipedia</a>
                         <br>
-                        <a href="html_.html"><strong>Learn More</strong></a>
+                        <a href="html-info.html"><strong>Learn More</strong></a>
                     </p>  
                 </div>
                 
